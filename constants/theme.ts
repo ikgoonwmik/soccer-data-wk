@@ -16,6 +16,12 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    card: '#fff',
+    cardBorder: '#e5e7eb',
+    secondaryText: '#6b7280',
+    scoreDivider: '#0a7ea4',
+    badge: '#fef3c7',
+    badgeText: '#92400e',
   },
   dark: {
     text: '#ECEDEE',
@@ -24,6 +30,12 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    card: '#1f2937',
+    cardBorder: '#374151',
+    secondaryText: '#9ca3af',
+    scoreDivider: '#60a5fa',
+    badge: '#451a03',
+    badgeText: '#fef3c7',
   },
 };
 
@@ -51,3 +63,27 @@ export const Fonts = Platform.select({
     mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
   },
 });
+
+/**
+ * Spacing system for consistent layout
+ */
+export const Spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  xxxl: 32,
+};
+
+/**
+ * Border radius values
+ */
+export const BorderRadius = {
+  sm: 4,
+  md: 8,
+  lg: 12,
+  xl: 16,
+  full: 9999,
+};
